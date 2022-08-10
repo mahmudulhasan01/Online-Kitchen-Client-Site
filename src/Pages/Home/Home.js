@@ -5,6 +5,7 @@ import Navbar from "../Shared/Navbar";
 import Category from "./Category/Category";
 import OurService from "./OurService/OurService";
 import Peculiarity from "./Peculiarity/Peculiarity";
+import PopurlerFoods from "./PopurlerFoods/PopurlerFoods";
 import Testimonial from "./Testimonial/Testimonial";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Navbar></Navbar>
       <Header></Header>
       <Category></Category>
+      <PopurlerFoods></PopurlerFoods>
       <OurService></OurService>
       <Peculiarity></Peculiarity>
       {/* <Testimonial></Testimonial> */}
